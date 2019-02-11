@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 
 // Components
 import SongList from './components/SongList';
+import SongDetails from "./components/SongDetails";
 
 class App extends Component {
   render() {
@@ -11,6 +12,9 @@ class App extends Component {
             <div className="ui row">
                 <div className="column  eight wide">
                     <SongList />
+                </div>
+                <div className="column eight wide">
+                    <SongDetails />
                 </div>
             </div>
         </div>
